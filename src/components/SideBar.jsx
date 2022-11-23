@@ -4,7 +4,7 @@ import {RiContactsLine} from 'react-icons/ri'
 import {FcAbout} from 'react-icons/fc'
 const SideBar = () => {
   return (
-    <div className='hidden h-screen w-52 lg:flex flex-col justify-center bg-slate-300'>
+    <div className='hidden h-screen w-52 lg:flex flex-col justify-center bg-[#008DD5]'>
         <div className='flex flex-col h-1/2 my-auto'>
             <a href="#home" className='flex items-center border w-2/3 mx-auto mb-6 px-5 py-2 rounded-lg bg-white'>
                 <span className='text-2xl'>
