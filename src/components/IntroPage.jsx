@@ -3,9 +3,9 @@ import MotionDiv from './Animation/MotionFadeDiv'
 import MotionScaleDiv from './Animation/MotionScaleDiv'
 const IntroPage = () => {
   return ( 
-        <section className = "flex lg:mr-8 h-screen lg:w-4/5 ml-4 lg:ml-auto" id='home'>
+        <section className = "flex items-center lg:mr-8 h-screen lg:w-4/5 ml-4 lg:ml-auto" id='home'>
             <MotionDiv>
-                <div className='mt-24 lg:mt-12'>
+                <div>
                     <div className='flex justify-between h-60 lg:h-full'>
                         <div className='self-end mt-8'>
                             <h3 className='lg:text-xl ml-1 tracking-widest'>Hi, I'm</h3>
