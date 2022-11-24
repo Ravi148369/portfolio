@@ -5,10 +5,10 @@ import projectsObj from './projectsObj'
 const Projects = () => {
   return (
     <MotionFadeDiv>
-      <section className='h-min-screen pb-8 lg:mr-8' id='projects'>
+      <section className='min-h-screen pb-8' id='projects'>
         <div className='pt-6'>
           <h2 className='text-center lg:text-5xl text-3xl font-bold tracking-wider'>MY RECENT WORK</h2>
-          <p className='text-center lg:text-lg mt-4'>
+          <p className='w-11/12 text-center lg:text-lg mt-4'>
             Here are a few past projects I've worked on. Want to see more? 
             <a href="#contact" className='text-blue-500'>
               Email me
@@ -18,7 +18,7 @@ const Projects = () => {
         <div className='flex flex-wrap w-full mt-8 mx-auto justify-center'>
           {
             Array.isArray(projectsObj) && projectsObj.map(project => 
-              <div className='lg:w-3/12 w-96 m-4' key={project.id}>
+              <div className='w-72 m-4' key={project.id}>
                 <MotionScaleDiv>
                   <div className='shadow-lg bg-white rounded-lg overflow-hidden'>
                       <div className='lg:w-62 lg:h-44 h-52 rounded-lg overflow-hidden relative group'>

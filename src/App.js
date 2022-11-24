@@ -11,7 +11,7 @@ function App() {
         <div className="fixed lg:w-1/6">
           <SideBar/>
         </div>
-        <div className="lg:w-5/6 ml-auto">
+        <div className="lg:w-5/6 lg:ml-auto">
           <IntroPage/>
           <About/>
           <Projects/>

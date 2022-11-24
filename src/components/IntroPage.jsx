@@ -3,7 +3,7 @@ import MotionDiv from './Animation/MotionFadeDiv'
 import MotionScaleDiv from './Animation/MotionScaleDiv'
 const IntroPage = () => {
   return ( 
-        <section className = "flex items-center lg: lg:mr-4 h-screen ml-8" id='home'>
+        <section className = "flex items-center justify-center min-h-screen px-2 mb-8" id='home'>
             <MotionDiv>
                 <div>
                     <div className='flex justify-between h-60 lg:h-full -mt-8'>
@@ -33,7 +33,7 @@ const IntroPage = () => {
                                         <img src="./images/node.png" alt="not found" className='w-full object-cover' />    
                                     </div>
                                 </MotionScaleDiv>
-                            </div>
+                            </div>  
                         </div>
                     </div>
                     <div className='lg:text-6xl text-3xl font-bold'>
