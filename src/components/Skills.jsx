@@ -7,7 +7,7 @@ const Skills = () => {
     <div className='flex lg:w-full mt-4 flex-wrap'>
         {
             Array.isArray(skillsObj) && skillsObj.map(skill=>
-                <MotionScaleDiv>
+                <MotionScaleDiv  key={skill.id}>
                     <div className='lg:mr-8 mr-4 p-5 mt-4 rounded-full shadow-xl bg-gradient-to-tr from-gray-50'>
                         <svg
                             className="lg:w-12 w-7"

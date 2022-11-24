@@ -3,10 +3,10 @@ import MotionDiv from './Animation/MotionFadeDiv'
 import MotionScaleDiv from './Animation/MotionScaleDiv'
 const IntroPage = () => {
   return ( 
-        <section className = "flex items-center lg:mr-8 h-screen lg:w-4/5 ml-4 lg:ml-auto" id='home'>
+        <section className = "flex items-center lg: lg:mr-4 h-screen ml-8" id='home'>
             <MotionDiv>
                 <div>
-                    <div className='flex justify-between h-60 lg:h-full'>
+                    <div className='flex justify-between h-60 lg:h-full -mt-8'>
                         <div className='self-end mt-8'>
                             <h3 className='lg:text-xl ml-1 tracking-widest'>Hi, I'm</h3>
                             <h1 className='text-slate-800 tracking-wider lg:text-6xl text-3xl font-bold'>Ravi Pal.</h1>
@@ -52,7 +52,12 @@ const IntroPage = () => {
                         <a href="/facebook"><i className="fa-brands fa-facebook text-blue-700"></i></a>
                     </div>
                     <div>
-                        <button className='border px-5 py-2 rounded-md'>Resume</button>
+
+                        <button 
+                            className='border px-5 py-2 rounded-md bg-white shadow-lg'
+                        >
+                            <a href='./images/css.png' download={true}>Download!</a>
+                        </button>
                     </div>
                 </div>
             </MotionDiv>

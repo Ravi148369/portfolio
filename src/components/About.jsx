@@ -3,7 +3,7 @@ import MotionDiv from './Animation/MotionFadeDiv'
 import Skills from './Skills'
 const About = () => {
   return (
-    <section className='lg:w-10/12 pb-4 min-h-screen ml-auto lg:mr-8' id='about'>
+    <section className='pb-4 min-h-screen ml-auto' id='about'>
         <MotionDiv>
           <div className='text-center pt-8'>
             <h2 className='lg:text-5xl text-3xl font-bold tracking-widest'>ABOUT ME</h2>
