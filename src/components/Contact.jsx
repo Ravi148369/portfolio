@@ -27,7 +27,7 @@ const Contact = () => {
         setFormError(error)
     }
   return (
-    <section className='min-h-screen pb-8 ml-auto pt-8 bg-rose-100' id='contact'>
+    <section className='min-h-screen py-8 ml-auto bg-rose-100' id='contact'>
         <MotionFadeDiv>
             <div className='flex flex-wrap h-full mt-16'>
                 <div className='lg:w-1/2 w-11/12 mx-auto h-full my-auto'>

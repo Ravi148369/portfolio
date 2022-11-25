@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import IntroPage from "./components/IntroPage";
 import Projects from "./components/Projects";
+import HamburgerMenu from "./components/HamburgerMenu";
 import SideBar from "./components/SideBar";
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
           <SideBar/>
         </div>
         <div className="lg:w-5/6 lg:ml-auto">
+          <HamburgerMenu/>
           <IntroPage/>
           <About/>
           <Projects/>
